@@ -1,0 +1,11 @@
+Add a new migration to include the seed data:
+
+dotnet ef migrations add SeedInitialData
+
+Update the database to apply the migration and seed the data:
+
+dotnet ef database update
+
+Run your application:
+
+dotnet run
